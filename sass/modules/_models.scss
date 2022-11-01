@@ -1,0 +1,24 @@
+.models {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 800px;
+    background-color: #DADADA;
+}
+
+.title {
+    margin: 50px 0;
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+.selectCar {
+    width: 1300px;
+    height: 700px;
+    background-color: #B2B2B2;
+
+}
