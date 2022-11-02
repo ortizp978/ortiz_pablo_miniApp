@@ -18,26 +18,35 @@
     <section id="container">
         <section class="head">
             <div class="logo">
-
+                <img src="images/mini_logo.svg" alt="Mini Logo">
             </div>
             <div class="fakeMenu">
-
+                <h3>HOME</h3>
+                <h3>MODELS</h3>
+                <h3>CONTACT</h3>
             </div>
         </section>
+
         <section class="models">
             <div class="title">
                 <h1>WELCOME TO MINI.<br>LET THE FUN BEGIN.</h1>
             </div>
-            <div class="selectCar">
-
-            </div>
+            <nav class="selectCar-nav">
+                <ul class="car">
+                    <carthumbnail v-for="car in carData" :car="car"></carthumbnail>
+                </ul>
+            </nav>
         </section>
 
+        <section class="video"><video src="images/video.mp4" autoplay muted loop></video></section>
+        <footer>
+            <h4>ORTIZ PABLO MINI APP ASSIGNMENT</h4>
+        </footer>
     </section>
     
 
 
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/main.js" type="module" defer></script>
 </body>
 </html>

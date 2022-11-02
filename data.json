@@ -1,0 +1,17 @@
+{
+    "3Door": {
+        "name": "Mini Cooper 3 Door",
+        "thumbnailPic": "3door.png"
+    },
+
+    "convertible": {
+        "name": "Mini Cooper Convertible",
+        "thumbnailPic": "mini_convertible.png"
+    },
+
+    "countryman": {
+        "name": "Mini Cooper Countryman",
+        "thumbnailPic": "countryman.png"
+    }
+
+}

@@ -5,18 +5,28 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
-    background-color: #B2B2B2;
+    padding: 20px 150px;
+    background-color: black;
+    position: fixed;
+    z-index: 100;
 }
 
 .logo {
-    width: 400px;
-    height: 80px;
-    background-color: #706F6F;
+    width: 200px;
 }
 
 .fakeMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 400px;
     height: 50px;
-    background-color: #706F6F;
+
+    h3 {
+        font-weight: 800;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+    }
 }
