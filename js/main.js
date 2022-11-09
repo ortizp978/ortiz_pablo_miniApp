@@ -1,5 +1,5 @@
 import CarThumb from './components/TheCarThumbnail.js';
-//import Lightbox from './components/TheLightboxComponent.js';
+import Lightbox from './components/TheLightboxComponent.js';
 
 (() => {
     const { createApp } = Vue
@@ -15,20 +15,21 @@ import CarThumb from './components/TheCarThumbnail.js';
         data() {
             return {
                 carData: {},
-                //ligthboxData: {}
+                lightboxData: {},
+                showLightBox: false
             }
         },
 
         methods: {
             loadLightBox(item) {
-                debugger;
-                //this.lightboxData = item;
+                this.lightboxData = item;
+                this.showLightBox = true;
             }
         },
 
         components: {
             carthumbnail: CarThumb,
-            //Lightbox: Lightbox
+            lightbox: Lightbox
         }
     }).mount('#container')
 })()

@@ -49,8 +49,9 @@
 .info1 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 220px;
-    background-color: gray;
+    background-color: rgb(225, 225, 225);
     padding: 20px;
+    border-radius: 15px;
 }

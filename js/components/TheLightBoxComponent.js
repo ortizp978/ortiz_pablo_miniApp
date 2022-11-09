@@ -1,37 +1,38 @@
 export default {
     name: 'TheLightboxComponent',
     
-    props: ['hero'],
+    props: ['car'],
 
     template:
     `
-    <lightbox class="lightbox">
-            <h2>MINI COOPER 3 DOORS</h2>
+    <section class="lightbox">
+
+            <h2>MINI COOPER 3 DOOR</h2>
             <div class="line"></div>
             <div class="infoTable">
                 <div class="carImage">
-                    <img src="images/car_image_3door.png" alt="3 door car photo">
+                    <img :src='"images/" + car.carMainPic' alt="car image">
                 </div>
                 <div class="info1">
-                    <h3>Example text just to test</h3>
-                    <p>A lot of more text just to test how the info fits in this small square</p>
+                    <h3>{{ car.title1 }}</h3>
+                    <p>{{ car.text1 }}</p>
                 </div>
                 <div class="info1">
-                    <h3>Example text just to test</h3>
-                    <p>A lot of more text just to test how the info fits in this small square</p>
+                    <h3>{{ car.title2 }}</h3>
+                    <p>{{ car.text2 }}</p>
                 </div>
                 <div class="info1">
-                    <h3>Example text just to test</h3>
-                    <p>A lot of more text just to test how the info fits in this small square</p>
+                    <h3>{{ car.title3 }}</h3>
+                    <p>{{ car.text3 }}</p>
                 </div>
             </div>
 
-        </lightbox>
-    `,
+        </section>
+    `
 
-    methods: {
-        closeLB() {
-            this.$emit('closelb');
-        }
-    }
+    //methods: {
+    //    closeLB() {
+    //        this.$emit('closelb');
+    //    }
+    //}
 }

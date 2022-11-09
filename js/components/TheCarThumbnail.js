@@ -7,14 +7,14 @@ export default {
 
     template:
     `
-    <li>
+    <li @click="loadLightboxData">
         <img :src='"images/" + car.thumbnailPic' alt="car image">
         <h3>{{car.name}}</h3>
     </li>
     `,
 
     methods: {
-        loadLighboxData() {
+        loadLightboxData() {
             this.$emit('loadlb',this.car);
         }
     }
