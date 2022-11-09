@@ -1,0 +1,55 @@
+.models {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 600px;
+    background-image: url('../images/main_photo.jpg');
+    margin-top: 120px;
+    margin-bottom: 15px;
+    align-content: space-around;
+}
+
+.title {
+    margin: 50px 0;
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 0px black;
+    }
+}
+
+.selectCar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 400px;
+}
+
+.car {
+    align-items: center;
+    display: inline-flex;
+    height: 400px;
+
+    h3 {
+        width: 210px;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    li:hover img {scale: 110%;}
+
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        margin: 0 10px;
+        img {transition: scale 0.2s ease;}
+    }
+}

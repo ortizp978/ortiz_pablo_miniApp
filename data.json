@@ -1,0 +1,38 @@
+{
+    "3Door": {
+        "name": "Mini Cooper 3 Door",
+        "thumbnailPic": "3door.png",
+        "carMainPic": "car_image_3door.png",
+        "title1": "Driving Modes",
+        "text1": "Green for leisurely cruising and fuel efficiency, Sport for more responsive steering and Mid for a happy motoring.",
+        "title2": "Dynamic Damper Control",
+        "text2": "Customise your driving dynamics between Comfort and Sport.",
+        "title3":"Multi-Link Rear Suspension",
+        "text3": "Allows each wheel to react independently to bumps in the road."
+    },
+
+    "convertible": {
+        "name": "Mini Cooper Convertible",
+        "thumbnailPic": "mini_convertible.png",
+        "carMainPic": "car_image_convertible.png",
+        "title1": "Twin Power Turbo Engines",
+        "text1": "More powerfull and fuel-efficient by suppling inmediate torque.",
+        "title2": "Dynamic Damper Control",
+        "text2": "Customise your driving dynamics between Comfort for a more leisurely drive and Sport for ultra-responsive agility.",
+        "title3":"Sport Mode",
+        "text3": "Launchs the sport instrument cluster and converts your MINI's LED ring into a rev counter."
+    },
+
+    "countryman": {
+        "name": "Mini Cooper Countryman",
+        "thumbnailPic": "countryman.png",
+        "carMainPic": "car_image_countryman_.png",
+        "title1": "3 Driving Modes",
+        "text1": "Green for optimized fuel delivery, Sport to boost acceleration and Mid for a happy motoring.",
+        "title2": "Up to 301 Horses Power",
+        "text2": "Peerles powerhouse ready to turn drives into laps and roads into stages.",
+        "title3":"All 4 All-Whell Drive",
+        "text3": "Drive system wiil keep you confident by distributing power dinamically between front and rear axles."
+    }
+
+}
