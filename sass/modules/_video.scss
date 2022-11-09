@@ -1,4 +1,9 @@
 .video {
-    margin-top: 20px;
     video{width: 1300px;}
+
+    .line{
+        height: 2px;
+        background-color: black;
+        margin: 0;
+    }
 }
